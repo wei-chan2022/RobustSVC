@@ -4,7 +4,7 @@ layout: default
 
 ## Abstract
 
-Singing voice conversion (SVC) is hindered by noise sensitivity due to the use of non-robust features like pitch and energy during inference. 
+Singing voice conversion (SVC) is hindered by noise sensitivity due to the use of non-robust methods for extracting pitch and energy during the inference. 
 As clean signals are key for the source audio in SVC, music source separation preprocessing offers a viable solution for handling noisy audio, like singing with background music (BGM). 
 However, current separating methods struggle to fully remove noise or excessively suppress signal components, affecting the naturalness and similarity of the processed audio. 
 To tackle this, our study introduces RobustSVC, a novel any-to-one SVC framework that converts noisy vocals into clean vocals sung by the target singer. 
